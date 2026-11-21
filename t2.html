@@ -1,0 +1,210 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Furnace Capacity Details</title>
+
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        background: #000;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .container {
+        width: 100%;
+        padding: 0 1px;
+        overflow-x: auto;
+    }
+
+    .top-banner {
+        width: 100%;
+        height: 121px;
+        background: #c9c9c9;
+        border: 2px solid #647b40;
+        margin-bottom: 24px;
+    }
+
+    table {
+        width: 100%;
+        min-width: 900px;
+        border-collapse: collapse;
+        table-layout: fixed;
+        background: #000;
+    }
+
+    th, td {
+        border: 2px solid #fff;
+        padding: 8px 12px;
+        vertical-align: top;
+        font-size: 27px;
+        line-height: 1.4;
+    }
+
+    th {
+        background: #f49a27;
+        color: #172b3d;
+        font-weight: bold;
+        text-align: center;
+        vertical-align: middle;
+        height: 65px;
+    }
+
+    td {
+        background: #000;
+        color: #aaa;
+        font-weight: bold;
+    }
+
+    td:first-child {
+        color: #f9a12b;
+        font-weight: bold;
+    }
+
+    td:nth-child(2) {
+        text-align: center;
+    }
+
+    /* Column widths */
+    th:nth-child(1),
+    td:nth-child(1) {
+        width: 25.4%;
+    }
+
+    th:nth-child(2),
+    td:nth-child(2) {
+        width: 10.2%;
+    }
+
+    th:nth-child(3),
+    td:nth-child(3) {
+        width: 32.6%;
+    }
+
+    th:nth-child(4),
+    td:nth-child(4) {
+        width: 31.8%;
+    }
+
+    @media (max-width: 768px) {
+        th, td {
+            font-size: 18px;
+            padding: 8px;
+        }
+
+        .top-banner {
+            height: 80px;
+        }
+    }
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="top-banner"></div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Furnace Name</th>
+                <th>No. of Sets</th>
+                <th>Capacity for Each Charge</th>
+                <th>Max. Dimensions</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Sealed Quench Furnaces</td>
+                <td>9</td>
+                <td>600 Kg each Furnace</td>
+                <td>650mm(w) X 650mm(h) X 1250mm(l)</td>
+            </tr>
+
+            <tr>
+                <td>Pit Type Furnaces</td>
+                <td>6</td>
+                <td>
+                    600 Kg each Furnace (5)<br>
+                    1500 Kg each batch (1)
+                </td>
+                <td>
+                    Dia. 750mm X 1250mm(h)<br>
+                    Dia. 850mm X 1800mm(h)
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    Aluminum Heat Treatment<br>
+                    furnace
+                </td>
+                <td>1</td>
+                <td>
+                    500 Kg each Batch<br>
+                    (1 Solutionizing F/c + 1 Aging Furnace)
+                </td>
+                <td>800mm(w) X 800mm(h) X 1250mm (l)</td>
+            </tr>
+
+            <tr>
+                <td>Induction Hardening Machines</td>
+                <td>6</td>
+                <td>
+                    1.High Frequency(3Nos)-90KW/45KW<br>
+                    2.Low Frequency (1Nos)- 150 KW<br>
+                    3.Dual Frequency (2Nos)- 150 KW
+                </td>
+                <td>
+                    1. Length 1000mm/ 500mm dia<br>
+                    2. Length 600mm / 600mm dia<br>
+                    3. Length 1250mm / 600mm dia
+                </td>
+            </tr>
+
+            <tr>
+                <td>Austempering</td>
+                <td>2</td>
+                <td>1000 Kg</td>
+                <td>950mm(w) X 950mm(h) X 1250mm(l)</td>
+            </tr>
+
+            <tr>
+                <td>Liquid Nitriding + Oxidation</td>
+                <td>1</td>
+                <td>500 Kg</td>
+                <td>Dia. 500 mm / Length 800mm</td>
+            </tr>
+
+            <tr>
+                <td>Stress Relieving</td>
+                <td>1</td>
+                <td>1000 Kg</td>
+                <td>
+                    1200mm(l) X 1200mm(w) X<br>
+                    1200mm(h)
+                </td>
+            </tr>
+
+            <tr>
+                <td>Sub-Zero Chamber</td>
+                <td>1</td>
+                <td>800 Kg</td>
+                <td>800mm(h) X 800mm(w) X 1400mm(l)</td>
+            </tr>
+        </tbody>
+    </table>
+
+</div>
+
+</body>
+</html>
